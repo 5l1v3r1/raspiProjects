@@ -23,3 +23,7 @@ java -Djava.awt.headless=true -jar /etc/jdownloader/JDownloader.jar
 # - Press CTRL+C to exit.
 
 java -Djava.awt.headless=true -jar /etc/jdownloader/JDownloader.jar &> /var/log/jdownloader.log &
+
+
+#Kapatmak İçin
+pkill -f 'java.*JDownloader'
